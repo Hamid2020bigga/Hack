@@ -1,0 +1,34 @@
+﻿<DOCTYPE html>
+<html> <!-- html wrapper -->
+	<head> 
+	<!-- consists of tntro-->
+		<meta charset="UTF-8">
+		<meta name="My little World" content="Try it now">
+		<title>LearningAdventure</title>
+	</head>
+	<body> 
+	<!-- consists the view of the page -->
+		<h1>WELCOME TO MY LEARNING ENVIRONMENT </h1>
+		<p></p>
+		<p><i> Login using your <strong>active accounts like google etc </strong> to access my little world of learning the following programming languages; <i></p>
+		<p style="color:red;"><i><strong>	• Python</strong><i></p>
+		<p style="color:red;"><i><strong>	•JavaScript</strong><i></p>
+		<p style="color:red;"><i><strong>	•Html</strong><i></p>
+		<p style="color:red;"><i>E.t.c<i></p>
+		<p><i>So login to <em>START<em><i></p>
+		<p></p>
+	</body>
+</html>
+</DOCTYPE html>
+
+{% block tittle %} <b><i>Login<i></b><hr/> {% endblock %}
+
+{% block content %}
+
+<form action="#" method="post">
+	<p> Email:	<input type="email" name="email" placeholder="Email" /></p>
+	<p>Password:	<input type="password" name="passw" placeholder="Password" /></p>
+	<p><input type="submit" name="submit"/></p>
+</form>
+
+{% endblock %}
